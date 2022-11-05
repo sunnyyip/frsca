@@ -6,7 +6,6 @@ ASDF_VERSION=v0.10.2
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch ${ASDF_VERSION}
 
 # Install packages if needed.
-echo -e "${C_GREEN}Installing packages if needed...${C_RESET_ALL}"
 case "${PLATFORM}" in
 
   Darwin)
